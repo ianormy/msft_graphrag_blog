@@ -7,6 +7,11 @@ Code to accompany my blog posts about Microsoft GraphRAG with an RDF Knowledge G
 
 [Microsoft GraphRAG with an RDF Knowledge Graph - Part 1](https://medium.com/@ianormy/microsoft-graphrag-with-an-rdf-knowledge-graph-part-1-00a354afdb09)
 
+Using a local LLM & Encoder to do Microsoft’s GraphRAG.
+
+[Microsoft GraphRAG with an RDF Knowledge Graph - Part 2](https://medium.com/@ianormy/microsoft-graphrag-with-an-rdf-knowledge-graph-part-2-d8d291a39ed1)
+
+Uploading the output from Microsoft’s GraphRAG into an RDF Store.
 
 ## Data
 
