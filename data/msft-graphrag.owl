@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sh="http://www.w3.org/ns/shacl#"
+	xmlns:sp="http://spinrdf.org/sp#">
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:label xml:lang="en">Microsoft GraphRAG</rdfs:label>
+	<dct:title xml:lang="en">Microsoft GraphRAG</dct:title>
+	<namespace xmlns="http://www.linkedmodel.org/1.2/schema/vaem#" rdf:resource="http://ormynet.com/ns/msft-graphrag#"/>
+	<status xmlns="http://purl.org/ontology/bibo/" rdf:resource="http://purl.org/spar/pso/draft"/>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:19:51.223Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<owl:versionInfo>0.1</owl:versionInfo>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#title">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>title</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:21:45.753Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:21:45.753Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Document">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Document</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:21:45.753Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:22:48.036Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#DocumentShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-582b451b6e6f6e758919eb27eea57f"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-c616cdc63df393438d5e3982815a4e0"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Document"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#id">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>id</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:22:48.036Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:22:48.036Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#nTokens">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>n_tokens</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:24:39.607Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:24:39.607Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Chunk">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Chunk</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:24:39.607Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#ChunkShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-330c46b1d8693f1e55c28db4140ed"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-381ef3ae7bbb38966bb840ce8146e36"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-62F5F5794F5F2FD5CDC41777AA25F147"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-707f1913b0902d13d497fd0b0583ed"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-8c468b4c27c1e024f10a2c4391be00"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-edbee5f4d498bd7ca76e2309d8a1b"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Chunk"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Entity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Entity</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:26:29.280Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:36:26.557Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#EntityShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-0fda953f2b7d11b33b993e97e1b0763"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-261f5f649b506c0313e674c184ba8"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-34d41a01fc0f2595e00b59d185dd375"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-371a5126ac32a2ea15ae7273c981d6"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-4b265d7873774b5a1d59ef3ef3676b"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7260f7079b10877387dac8b7e39af2b"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-8c1ce596da697951dbec65942501bfd"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#text">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>text</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:26:51.923Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:26:51.923Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>name</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#description">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>description</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#humanReadableId">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>human_readable_id</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#descriptionEmbedding">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>description_embedding</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:28:39.603Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#rank">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>rank</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#fullContent">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>full_content</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#level">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>level</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#rankExplanation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>rank_explanation</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#summary">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>summary</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Community">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Community</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:32:04.987Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-09T11:34:41.734Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#CommunityShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-0ea6ed6ff2220cb80550771fc2797b"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-10b3c3c82394791c09a6b2486aaf2a64"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-13f902e4803d5260790ffee1bdffa"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-3c43970b4c9d2db5274f0b737dbaf77"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7e101866664ee766342e70a2223f3792"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7e2a47c854a5fdfc700a4ef83ad9694"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-85829453b32e5d561a67f41f181bf1"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-d09686d2787fb05d2c4651df4e099"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Community"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Covariate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Covariate</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:33:44.855Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#CovariateShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-9A5DAA0FB32E3E7CECC0A554CF761A93"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-46f088a75c41915362065d97c09ee4b"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-5205b6a83f2800412d824886e64f6c"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-297FE87765AFEDF82EB0295B2C921BA6"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Covariate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#partOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>part_of</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:34:28.515Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:34:28.515Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#hasEntity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>has_entity</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:35:10.670Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:35:10.670Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#relatedTo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>related_to</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:35:58.331Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:35:58.331Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#inCommunity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>in_community</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:36:26.557Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:36:26.557Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#hasFinding">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>has_finding</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:37:33.470Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-06T06:37:33.470Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#Finding">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:label xml:lang="en">Finding</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-09T11:34:41.734Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-09T11:34:41.734Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#finding">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>finding</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-09T11:34:41.734Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-09T11:34:41.734Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#FindingShape">
+	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-799c14251f0f6e1f7d8745a3f0d09"/>
+	<sh:property rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-eec4f03287e8ae332eb8275525407"/>
+	<sh:targetClass rdf:resource="http://ormynet.com/ns/msft-graphrag#Finding"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-0ea6ed6ff2220cb80550771fc2797b">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#rankExplanation"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-0fda953f2b7d11b33b993e97e1b0763">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#descriptionEmbedding"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-10b3c3c82394791c09a6b2486aaf2a64">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Finding"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#hasFinding"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-13f902e4803d5260790ffee1bdffa">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#title"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-261f5f649b506c0313e674c184ba8">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#humanReadableId"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-330c46b1d8693f1e55c28db4140ed">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#nTokens"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-34d41a01fc0f2595e00b59d185dd375">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Entity"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#relatedTo"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-371a5126ac32a2ea15ae7273c981d6">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#description"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-381ef3ae7bbb38966bb840ce8146e36">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Document"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#partOf"/>
+	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-3c43970b4c9d2db5274f0b737dbaf77">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#level"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-9A5DAA0FB32E3E7CECC0A554CF761A93">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#textUnitId"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#textUnitId">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>text_unit_id</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-46f088a75c41915362065d97c09ee4b">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#nTokens"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-4b265d7873774b5a1d59ef3ef3676b">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Community"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#inCommunity"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-5205b6a83f2800412d824886e64f6c">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-582b451b6e6f6e758919eb27eea57f">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-62F5F5794F5F2FD5CDC41777AA25F147">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Covariate"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#hasCovariate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#hasCovariate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label>has_covariate</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-707f1913b0902d13d497fd0b0583ed">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7260f7079b10877387dac8b7e39af2b">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#name"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-799c14251f0f6e1f7d8745a3f0d09">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7e101866664ee766342e70a2223f3792">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#fullContent"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-7e2a47c854a5fdfc700a4ef83ad9694">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#summary"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-85829453b32e5d561a67f41f181bf1">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#rank"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-8c1ce596da697951dbec65942501bfd">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-8c468b4c27c1e024f10a2c4391be00">
+	<sh:class rdf:resource="http://ormynet.com/ns/msft-graphrag#Entity"/>
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#hasEntity"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-c616cdc63df393438d5e3982815a4e0">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#title"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-d09686d2787fb05d2c4651df4e099">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#id"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-297FE87765AFEDF82EB0295B2C921BA6">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#documentIds"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ormynet.com/ns/msft-graphrag#documentIds">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:label>document_ids</rdfs:label>
+	<modifiedBy xmlns="http://open-services.net/ns/core#">Ian Ormesher</modifiedBy>
+	<dct:contributor>Ian Ormesher</dct:contributor>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:created>
+	<dct:creator>Ian Ormesher</dct:creator>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-16T05:54:10.447Z</dct:modified>
+	<rdfs:isDefinedBy rdf:resource="http://ormynet.com/ns/msft-graphrag"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-edbee5f4d498bd7ca76e2309d8a1b">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#text"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-2b722ef497b24192814a8c9e153f9fc94630-eec4f03287e8ae332eb8275525407">
+	<sh:path rdf:resource="http://ormynet.com/ns/msft-graphrag#finding"/>
+	<sh:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+</rdf:RDF>
