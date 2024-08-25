@@ -13,6 +13,10 @@ Using a local LLM & Encoder to do Microsoft’s GraphRAG.
 
 Uploading the output from Microsoft’s GraphRAG into an RDF Store.
 
+[Microsoft GraphRAG with an RDF Knowledge Graph - Part 3](https://medium.com/@ianormy/microsoft-graphrag-with-an-rdf-knowledge-graph-part-3-328f85d7dab2)
+
+Using SPARQL and the Knowledge Graph for RAG.
+
 ## Data
 
 The ontology file is in the data folder:
